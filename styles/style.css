@@ -135,18 +135,29 @@ a {
 .call-now {
     margin: 130px 0;
     width: 100%;
-    background-image: url("../images/watch.png");
+    background-image: url("../images/gradient2.png"), url("../images/watch.png") ;
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    padding: 60px 64px;
 }
 
 .gradient {
     position: absolute;
     width: 100%;
+    z-index: 0;
+}
+
+.call-title {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 24px;
 }
 
 .call-btn {
-    z-index: 999;
+    background-color: #fff;
+    color: #F15B22;
+    margin: ;
 }
