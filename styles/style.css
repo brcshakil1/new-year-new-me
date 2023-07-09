@@ -104,12 +104,13 @@ a {
 
 /* plans section */
 
-.plans > h2 {
-    padding-bottom: 50px;
+.plan-title {
+    margin-bottom: 50px;
 }
 
 .plan {
     text-align: center;
+    /* margin-right: 70px; */
 } 
 
 .plan > img {
@@ -118,13 +119,34 @@ a {
 
 .plan-title {
     color:  #151414;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     padding-bottom: 10px;
 }
 
 .plan > p {
     color: #737272;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
+}
+
+/* call now area */
+
+.call-now {
+    margin: 130px 0;
+    width: 100%;
+    background-image: url("../images/watch.png");
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+}
+
+.call-btn {
+    z-index: 999;
 }
